@@ -1,7 +1,8 @@
 import { postReducer } from "./redux/news/reduser";
+import { userReducer } from "./redux/user/reduser";
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 
-const reducer = { postReducer };
+const reducer = { postReducer, userReducer };
 const middleware = getDefaultMiddleware({
   immutableCheck: false,
   thunk: true,
