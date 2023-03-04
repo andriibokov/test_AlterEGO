@@ -1,7 +1,6 @@
 export interface User {
-  login: null;
-  token: null;
-  id: null;
+  login: string | null;
+  isAuth: boolean;
 }
 
 export enum UserActionTypes {

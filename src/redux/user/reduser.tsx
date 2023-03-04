@@ -1,24 +1,23 @@
 import { UserActionTypes, User } from "../../types/user";
 
 const initialState: User = {
-  login: null,
-  token: null,
-  id: null,
+  login: localStorage.getItem("isAuth"),
+  isAuth: false,
 };
 
 export const userReducer = (state = initialState, action: any): User => {
   switch (action.type) {
     case UserActionTypes.SET_USER:
       return {
+        ...state,
         login: action.payload.login,
-        token : action.payload.token,
-        id: action.payload.id,
+        isAuth: action.payload.isAuth,
       };
     case UserActionTypes.REMOVE_USER:
       return {
-        login: null,
-        token: null,
-        id: null,
+        ...state,
+        login: '',
+        isAuth: false,
       };
     default:
       return state;

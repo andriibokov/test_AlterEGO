@@ -10,6 +10,16 @@
     "btnDelete": "Delete"
   },
 
+  "profile": {
+    "btnLogIn": "Sign in",
+    "btnLogOut": "Logout",
+    "titleForm": "Login",
+    "loginTitle": "Login",
+    "passwordTitle": "Password",
+    "errorText": "The login or password is incorrect!",
+    "lorem": "Lorem ipsum dolor sit amet, cu agam epicurei aliquando vel. Pro ne homero dolorum, te malis suavitate usu. Et duo odio regione, pri at nostrud corrumpit efficiendi, usu petentium deseruisse ne. No tale dicta graeco nam, ex nibh assueverit vix, labitur urbanitas ex est. Ius saperet dolorum no. Admodum luptatum pri cu, nec magna numquam erroribus ei, ex stet nominavi nam. Eos ea mundi convenire, alii primis qui id. Usu singulis deserunt urbanitas et. Semper comprehensam eum no, nec malis elaboraret at. Nam nostro postulant contentiones at. Accusam salutandi vituperata qui et, an exerci saperet vim, ut liber vivendo vis. Nec no saperet perpetua assueverit, an possim perfecto consequuntur nec, ex alia quaestio omittantur eam. Ei dissentiet contentiones mel, vix at omnis oratio facilisis. Legimus debitis delicata mel an. Vel ei idque nonumy adipisci, in splendide deseruisse qui, cum in omnesque incorrupte disputando. An urbanitas omittantur eam, vix minim efficiantur id. Ea nec enim saepe persius, quo et wisi minim vituperata. Ei eos possit deseruisse, ei tantas oportere vim. Et oblique epicuri legendos vim. Ei qui harum facilis consequuntur, cu nonumes feugait his."
+  },
+
   "main": {
     "lorem": "Lorem ipsum dolor sit amet, cu agam epicurei aliquando vel. Pro ne homero dolorum, te malis suavitate usu. Et duo odio regione, pri at nostrud corrumpit efficiendi, usu petentium deseruisse ne. No tale dicta graeco nam, ex nibh assueverit vix, labitur urbanitas ex est. Ius saperet dolorum no. Admodum luptatum pri cu, nec magna numquam erroribus ei, ex stet nominavi nam. Eos ea mundi convenire, alii primis qui id. Usu singulis deserunt urbanitas et. Semper comprehensam eum no, nec malis elaboraret at. Nam nostro postulant contentiones at. Accusam salutandi vituperata qui et, an exerci saperet vim, ut liber vivendo vis. Nec no saperet perpetua assueverit, an possim perfecto consequuntur nec, ex alia quaestio omittantur eam. Ei dissentiet contentiones mel, vix at omnis oratio facilisis. Legimus debitis delicata mel an. Vel ei idque nonumy adipisci, in splendide deseruisse qui, cum in omnesque incorrupte disputando. An urbanitas omittantur eam, vix minim efficiantur id. Ea nec enim saepe persius, quo et wisi minim vituperata. Ei eos possit deseruisse, ei tantas oportere vim. Et oblique epicuri legendos vim. Ei qui harum facilis consequuntur, cu nonumes feugait his. Philosophia instructior mea ut, cum clita consul temporibus te, cu pri vocent integre. Ad veri constituto pro, eu nam convenire scripserit theophrastus."
   }

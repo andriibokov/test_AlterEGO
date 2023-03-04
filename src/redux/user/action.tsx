@@ -1,18 +1,13 @@
-import axios from "axios";
-import { Dispatch } from "redux";
-import { UserActionTypes } from "../../types/user";
+import { User, UserActionTypes } from "../../types/user";
 
-export const login = () => ({
+export const LoggedIn = (login: string | null, isAuth: boolean) => ({
   type: UserActionTypes.SET_USER,
+  payload: {
+    login: login,
+    isAuth: isAuth,
+  }
 });
 
-export const logout = (posts: any) => ({
+export const LoggedOut = () => ({
   type: UserActionTypes.REMOVE_USER,
-  payload: posts,
 });
-
-export const userAuth = () => {
-  return async (dispatch: Dispatch) => {
-    dispatch(login());
-  };
-};

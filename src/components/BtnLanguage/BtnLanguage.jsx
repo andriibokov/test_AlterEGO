@@ -6,7 +6,7 @@ const BtnLanguage = () => {
     i18n.changeLanguage(language);
   }
   return (
-    <Box>
+    <Box sx={{marginLeft: "10px"}}>
       <Button onClick={() => changeLanguage("ua")}>UA</Button>
       <Button onClick={() => changeLanguage("en")}>EN</Button>
     </Box>

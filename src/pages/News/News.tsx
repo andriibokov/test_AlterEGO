@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography } from "@mui/material"
-import { useEffect, useState } from "react";
-import { fetchPosts, removePost } from "../../redux/news/action";
+import { useState } from "react";
+import { removePost } from "../../redux/news/action";
 import { useAppDispatch, useAppSelector } from "../../hooks/useTypedSelector";
 import { postData } from "../../types/news";
 import { useTranslation } from "react-i18next";
