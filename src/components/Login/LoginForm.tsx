@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
-import { LoggedIn, LoggedOut } from "../../redux/user/action";
+import { LoggedIn } from "../../redux/user/action";
 import { useAppDispatch, useAppSelector } from "../../hooks/useTypedSelector";
 import { User } from "../../types/user";
 import users from "../../users.json";
@@ -18,8 +18,7 @@ export const LoginForm = () => {
   const dispatch = useAppDispatch();
   const user: User = useAppSelector((state: any) => state.userReducer);
 
-
-  const [login, setLogin] = useState<string>('');
+  const [login, setLogin] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [isError, setIsError] = useState<boolean>(false);
 
@@ -82,7 +81,7 @@ export const LoginForm = () => {
               />
             </Grid>
           </Grid>
-          {isError && <Box sx={{marginTop:"10px"}}>{t("errorText")}</Box>}
+          {isError && <Box sx={{ marginTop: "10px" }}>{t("errorText")}</Box>}
           <Button
             type="submit"
             fullWidth

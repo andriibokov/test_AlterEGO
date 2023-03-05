@@ -1,6 +1,6 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Link, Box, Container } from "@mui/material"
-import BtnLanguage from "../BtnLanguage/"
+import {BtnLanguage} from "../BtnLanguage/BtnLanguage"
 import { useTranslation } from "react-i18next";
 import { PopupLogin } from "../popupLogin/PopupLogin";
 import { useAppSelector } from "../../hooks/useTypedSelector";

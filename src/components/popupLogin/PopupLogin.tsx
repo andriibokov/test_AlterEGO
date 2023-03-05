@@ -1,4 +1,4 @@
-import { LoginForm } from "../Login/LoginForm.tsx";
+import { LoginForm } from "../Login/LoginForm";
 import { useState } from "react";
 import { Box, Button, Dialog } from "@mui/material";
 import { useTranslation } from "react-i18next";
@@ -26,7 +26,17 @@ export function PopupLogin() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <Button sx={{alignSelf: "end", width: "50px", padding: "5px", fontSize: "20px"}} onClick={handleClose}>Х</Button>
+        <Button
+          sx={{
+            alignSelf: "end",
+            width: "50px",
+            padding: "5px",
+            fontSize: "20px",
+          }}
+          onClick={handleClose}
+        >
+          Х
+        </Button>
 
         <LoginForm />
       </Dialog>

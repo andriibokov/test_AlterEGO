@@ -1,8 +1,7 @@
 {
   "header": {
     "main": "Home",
-    "news": "News",
-    "profile": "Profile"
+    "news": "News"
   },
 
   "news": {

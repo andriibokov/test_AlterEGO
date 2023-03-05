@@ -50,7 +50,7 @@ const News = () => {
                     <Typography sx={{ marginRight: "8px" }}>
                       {index + 1}.
                     </Typography>
-                    <Typography level="h2" component="h2">
+                    <Typography component="h2">
                       {post?.title}
                     </Typography>
                   </Box>
@@ -82,4 +82,3 @@ const News = () => {
 }
 
 export default News;
-

@@ -6,10 +6,9 @@ import { useTranslation } from "react-i18next";
 
 const ProfilePage = () => {  
   const { t } = useTranslation("translation", { keyPrefix: "profile" });
-  
-  let navigate = useNavigate();
-  navigate("/");
+  const navigate = useNavigate();
   const dispatch = useAppDispatch();
+
   const redirectMain = () => {
     localStorage.removeItem("isAuth");
     dispatch(LoggedOut());
@@ -31,4 +30,3 @@ const ProfilePage = () => {
 };
 
 export default ProfilePage;
-

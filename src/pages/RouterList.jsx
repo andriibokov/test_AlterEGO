@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Main from "./Main";
-import News from "./News";
-import ProfilePage from "./Profile";
+import Main from "./Main/Main";
+import News from "./News/News";
+import ProfilePage from "./Profile/ProfilePage";
 
 const RouterList = () => {
   return (
